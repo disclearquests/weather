@@ -11,7 +11,7 @@ form.addEventListener("submit",async function(event){
     console.log("Submitted");
     console.log(input.value);
     const cityname=input.value.trim()
-    const url=`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid={you_api_key}&units=metric`
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid={YOUR_API_KEY}&units=metric`
     const response = await fetch(url);
     const data = await response.json();
     if (data.cod=="404"){
