@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    font-family: poppins,sans-serif;
+}
+.card{
+    max-width: 500px;
+    width: 90%;
+    background: linear-gradient(135deg,#3b8cc2,#304c7a);
+    color:#fff;
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding:40px;
+    text-align: center;
+}
+#weathericon{
+    width:150px;
+    height:150px;
+    margin: -10px;
+}
+#city{
+    font-size: xx-large;
+}
